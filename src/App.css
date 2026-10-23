@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Identidade */
+    --background: 60 33% 97%;
+    --foreground: 120 17% 11%;
+
+    --card: 60 33% 99%;
+    --card-foreground: 120 17% 11%;
+
+    --popover: 60 33% 99%;
+    --popover-foreground: 120 17% 11%;
+
+    /* Verde principal */
+    --primary: 102 18% 37%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Verde claro */
+    --secondary: 100 25% 92%;
+    --secondary-foreground: 102 18% 32%;
+
+    /* Texto secundário */
+    --muted: 90 15% 94%;
+    --muted-foreground: 96 7% 45%;
+
+    /* Áreas de destaque */
+    --accent: 100 25% 92%;
+    --accent-foreground: 102 18% 32%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Bordas */
+    --border: 90 18% 87%;
+    --input: 90 18% 87%;
+    --ring: 102 18% 37%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 120 17% 8%;
+    --foreground: 60 20% 96%;
+
+    --card: 120 15% 11%;
+    --card-foreground: 60 20% 96%;
+
+    --popover: 120 15% 11%;
+    --popover-foreground: 60 20% 96%;
+
+    --primary: 100 25% 58%;
+    --primary-foreground: 120 17% 8%;
+
+    --secondary: 105 15% 18%;
+    --secondary-foreground: 60 20% 96%;
+
+    --muted: 105 15% 16%;
+    --muted-foreground: 90 10% 65%;
+
+    --accent: 105 15% 18%;
+    --accent-foreground: 60 20% 96%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 105 12% 20%;
+    --input: 105 12% 20%;
+    --ring: 100 25% 58%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
