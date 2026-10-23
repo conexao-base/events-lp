@@ -1,59 +1,55 @@
-# Shadcn/UI Landing Page Template
+# LP Conexão
 
-## <a href="https://ui.shadcn.com/" target="_blank">ShadcnUI</a> + <a href="https://react.dev/" target="_blank">React</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+Landing page institucional da Conexão, desenvolvida para apresentar a plataforma, seus recursos e sua proposta de valor para organizações.
 
-![shadch-landing-page](https://github.com/leoMirandaa/shadcn-landing-page/assets/61714687/3ba7b51f-9589-4541-800a-5ab7cecad1b5)
+## Tecnologias
 
-Build your React landing page effortlessly with the required sections to your project. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
 
-## Sections
+## Como executar
 
-- [x] Navbar
-- [x] Sidebar(mobile)
-- [x] Hero
-- [x] Sponsors
-- [x] About
-- [x] Stats
-- [x] How It Works
-- [x] Features
-- [x] Services
-- [x] Call-to-Action (CTA)
-- [x] Testimonials
-- [x] Team
-- [x] Pricing
-- [x] Newsletter
-- [x] Frequently Asked Questions(FAQ)
-- [x] Footer
-
-## Features
-
-- [x] Fully Responsive Design
-- [x] User Friendly Navigation
-- [x] Dark Mode
-- [x] Meta tags
-
-## How to install
-
-1. Clone this repository:
+### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/leoMirandaa/shadcn-landing-page.git
+git clone https://github.com/conexao-base/lp-retiro.git
+cd lp-retiro
 ```
 
-2. Go into project
+### 2. Instale as dependências
 
-```bash
-cd shadcn-landing-page
-```
-
-3. Install dependencies
+É necessário ter o [Node.js](https://nodejs.org/) instalado.
 
 ```bash
 npm install
 ```
 
-4. Run project
+### 3. Inicie o servidor de desenvolvimento
 
 ```bash
 npm run dev
 ```
+
+Acesse o endereço exibido no terminal, geralmente:
+
+http://localhost:5173
+
+## Build de produção
+
+Para gerar os arquivos otimizados para publicação:
+
+```bash
+npm run build
+```
+
+Para visualizar localmente a versão de produção:
+
+```bash
+npm run preview
+```
+
+## Licença
+
+Consulte o arquivo `LICENSE` para obter informações sobre os termos de uso e distribuição.
