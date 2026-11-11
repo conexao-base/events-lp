@@ -14,8 +14,8 @@ Landing page institucional da Conexão, desenvolvida para apresentar a plataform
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/conexao-base/lp-retiro.git
-cd lp-retiro
+git clone https://github.com/conexao-base/lp.git
+cd lp
 ```
 
 ### 2. Instale as dependências
